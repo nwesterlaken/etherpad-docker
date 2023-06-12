@@ -2,7 +2,7 @@ version: '3'
 
 services:
   etherpad:
-    image: osuosl/etherpad-snowdrift
+    image: nxhs/etherpad
     restart: always
     ports:
       - "9001:9001"
